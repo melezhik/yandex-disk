@@ -1,0 +1,9 @@
+{
+
+  "name" : "yandex-disk",
+  "description" : "CLI for Yandex::Disk",
+  "version" : "0.0.1",
+  "sparrow_version": "0.2.50",
+  "category" : "utilities",
+  "url" : "https://github.com/melezhik/yandex-disk"
+}
