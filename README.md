@@ -15,7 +15,7 @@ Basic usage:
 
 For example:
 
-    # List folders:
+    # List system folders:
     $ sparrow plg run yandex-disk \
     --param token=********************************************* 
     --param action=disk-info 
@@ -24,21 +24,33 @@ For example:
     $ sparrow plg run yandex-disk \
     --param token=********************************************* 
     --param action=create-folder \
-    --param folder=Foo
+    --param folder=Foo/Bar
 
-    # Upload local file /path/to/file.txt to remote folder named Foo/:
+    # Upload local file /tmp/foo.txt to remote folder named Foo/Bar:
     $ sparrow plg run yandex-disk \
     --param token=********************************************* 
     --param action=upload-file \
-    --param folder=Foo \
-    --param file=/path/to/file.txt
+    --param folder=Foo/Bar \
+    --param file=/tmp/foo.txt
 
-    # Download remote file Foo/path/to/file.txt and save it as local file /path/to/local/file.txt:
+    # Download remote file Foo/Bar/foo.txt and save it as local file /path/to/local/file.txt:
     $ sparrow plg run yandex-disk \
     --param token=********************************************* 
     --param action=upload-file \
-    --param remote-file=Foo/path/to/file.txt \
+    --param remote-file=Foo/Bar/foo.txt \
     --param file=/path/to/local/file.txt
+
+    # List files in remote folder Foo/Bar:
+    $ sparrow plg run yandex-disk \
+    --param token=********************************************* 
+    --param action=list-files \
+    --param folder=Foo/Bar
+
+    # List files in remote folder / :
+    $ sparrow plg run yandex-disk \
+    --param token=********************************************* 
+    --param action=list-files \
+    --param folder=/
 
 # Parameter
 
