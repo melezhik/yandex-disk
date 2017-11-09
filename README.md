@@ -46,7 +46,7 @@ For example:
     --param action=list-files \
     --param folder=Foo/Bar
 
-    # List files in remote folder / :
+    # List files in remote folder /:
     $ sparrow plg run yandex-disk \
     --param token=********************************************* 
     --param action=list-files \

@@ -1,3 +1,7 @@
+# 0.0.3
+
+Impliment download-file action
+
 # 0.0.2
 
 Impliment list-files and upload-file actions
