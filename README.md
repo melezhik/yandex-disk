@@ -54,7 +54,7 @@ Should be one of the list:
 
 ## Token
 
-Should Oauth token
+Should be oauth token
 
 # Author
 
