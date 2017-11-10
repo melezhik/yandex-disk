@@ -1,3 +1,7 @@
+# 0.0.4
+
+* Minor documentation corrections
+
 # 0.0.3
 
 Impliment download-file action

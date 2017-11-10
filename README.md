@@ -2,7 +2,6 @@
 
 Simple wrapper for [Yandex::Disk](https://metacpan.org/pod/Yandex::Disk)
 
-
 # INSTALL
 
     $ sparrow plg install yandex-disk
@@ -52,7 +51,7 @@ For example:
     --param action=list-files \
     --param folder=/
 
-# Parameter
+# Parameters
 
 ## action
 
@@ -64,13 +63,13 @@ Should be one of the list:
 - upload-file
 
 
-## Token
+## token
 
 Should be oauth token
 
 # Author
 
-* The plugin maintainer is [Alexey Melezhik](https://github.com/melezhik/)
+[Alexey Melezhik](https://github.com/melezhik/)
 
 # See also
 
